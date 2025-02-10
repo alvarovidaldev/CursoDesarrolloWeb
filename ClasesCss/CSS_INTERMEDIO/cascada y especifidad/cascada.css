@@ -1,0 +1,19 @@
+/* por defecto */
+/* tiene la misma especifidad (0 0 1) */
+
+/* style dentro de las etiquetas es mas importante */
+
+/* con el class ahora se vuelve(0,1,0) */
+.titulo {
+    color: red;
+}
+
+/* con el id es aun mas especifico (1,0,0)*/
+#titulo {
+    color: brown;
+}
+
+/* es el mas fuerte dentro de todos  */
+h1 {
+    color: rgb(21, 212, 31) !important
+}

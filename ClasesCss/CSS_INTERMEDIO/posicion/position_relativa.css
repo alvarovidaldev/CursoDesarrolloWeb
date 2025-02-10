@@ -1,0 +1,20 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    color: #fff;
+    /* POSISION RELATIVA */
+    position: relative;
+    z-index: 2;
+}
+
+/* SE MUEVE LA SEGUNDA CAJA TAPANDO A LA OTRA SIN PERDER SU POSISION */
+.box--blue {
+    background-color: blue;
+    top: 20px;
+    left: 50px;
+    /* PARA QUE LA CAJA SE VAYA HACIA ADELANTE USAMOS Z-INDEX */
+    z-index: 3;
+
+}
+

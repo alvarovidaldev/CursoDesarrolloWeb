@@ -1,0 +1,66 @@
+/* =============TIPOS DE SELECTORES=========== */
+
+/* SELECTOR POR ELEMENTO <> =  mediante la etiqueta {Esto es todo el bloque} */
+p{
+    color: blueviolet;
+}
+h1{
+    text-align: center;
+}
+
+
+/* SELECTOR POR CLASES === PUNTO POR DELANTE -> ._nombre de la clase*/
+.parrafo-1{
+    color: blue;
+}
+
+.parrafo-2{
+    color: rgb(11, 201, 49);
+}
+
+
+/* SELECTOR POR ID === elemento clave solo para un elemento en toda la pagina */
+#parrafo-principal{
+    color: brown;
+}
+
+
+
+                    /* ======propiedades de TEXTO====== */
+
+.parrafo-propiedades{
+    /* modifica color */
+    color: darkorange;
+    /* tipografia */
+    font-family: montserrat;
+    /* tamaño de texto */
+    font-size: 14px;
+    /* grosor(negrita) de tipografia */
+    font-weight: bold;
+    /* inclinacion de letras */
+    font-style:italic;
+    /* alinea texto dentro del contenedor */
+    text-align:justify;
+    /* subrayado */
+    text-decoration: none;
+    /* espaciado entre lineas de parrafo */
+    line-height: 1.4;
+    /* espaciado entre letras */
+    letter-spacing: 2px;
+    /* tranforma todo el texto en mayuscula o miniscula*/
+    text-transform: capitalize;
+    /* brillo - sombras */
+    /* text-shadow:0px 0px 4px rgb(193, 161, 21); */
+
+}
+                    /* TIPOGRAFIAS EXTERNAS */ 
+                    /* se descarga desde google font en una carpeta */
+
+
+                    /* WIDTH Y HEIDTH */
+.ejemplo   {
+    background-color: red;
+    width: 400px;
+    height: 200px;
+}
+

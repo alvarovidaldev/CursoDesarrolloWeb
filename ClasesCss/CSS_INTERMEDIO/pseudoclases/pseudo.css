@@ -1,0 +1,36 @@
+/* MDN PSEUDOCLASES */
+/* estados */
+h1 {
+    color: #48e;
+    font-family: sans-serif;
+    margin: 30px;
+}
+
+/* CUANDO LE DAMOS CON EL MOUSE AL ELEMENTO SE APLICA LOS ATRIBUTOS */
+/* mouse hover la mas utilizada*/
+h1:hover {
+    color: violet;
+    background-color: #ccc;
+}
+
+/* MIENTRAS SE CLIKEA H1 O ESTE ACTIVO */
+h1:active {
+    background-color: #999;
+    color: red;
+}
+
+
+/* SELECCIONANDO EL PRIMER LI */
+li:first-child {
+    color: red;
+}
+
+/* SELECCIONANDO EL ULTIMO LI */
+li:last-child {
+    color: blueviolet;
+}
+
+/* PARA SELECCIONAR CUALQUIER ELEMENTO DE LI */
+li:nth-child(3){
+    color: greenyellow;
+}

@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+img {
+    width: 1400px;
+    height: 1200px;
+
+    /* usamos */
+    object-fit:contain;
+    object-position: none;
+    /* =============== */
+    
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: 50px;
+}

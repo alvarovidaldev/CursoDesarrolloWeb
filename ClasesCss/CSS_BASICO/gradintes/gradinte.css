@@ -1,0 +1,33 @@
+body{
+    background-color: red;
+    margin: 5px;
+}
+
+/* gradientes */
+.box{
+    width: 400px;
+    height: 400px;
+    /* background-color: red; */
+    /* es una funcion de gradiante */
+    /* puede comensar de derecha o izquierda */
+    /* to top , to left, .......etc */
+    background: linear-gradient(to left, black,red);
+
+    margin: 0;
+    width: 100%;
+}
+.radio{
+    width: 400px;
+    height: 400px;
+    background: radial-gradient( green,black);
+    margin: 0;
+    width: 100%;
+}
+
+.cono {
+    width: 400px;
+    height: 400px;
+    background: conic-gradient( red,#000a);
+    margin: 0;
+    width: 100%;
+}

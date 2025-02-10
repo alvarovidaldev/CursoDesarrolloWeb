@@ -1,0 +1,30 @@
+div {
+    padding: 20px;
+}
+/* LA PRIMERA LETRA DE MI H1 */
+h1::first-letter {
+    color: red;
+    font-size: 3em;
+    letter-spacing: -8px;
+}
+
+/* LA PRIMERA FILA DE MI PARRAFÓ */
+div::first-line {
+    color: red;
+}
+
+input::placeholder {
+    color: green;
+}
+
+/* AUMENTAMOS ANTES UN ELEMENTO */
+li::before {
+    content: 'ANTES  ';
+    color: red;
+}
+
+/* AUMENTAMOS DESPUES UN ELEMENTO */
+li::after{
+    content:' DESPUES' ;
+    color: blue;
+}

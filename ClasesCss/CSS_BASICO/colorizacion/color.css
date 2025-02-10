@@ -1,0 +1,23 @@
+.box{
+    /* ancho */
+    width: 100px;
+    /* alto */
+    height: 100px;
+    /* color de fondo */
+                    /* COLORES ROJO VERDE AZUL HASTA EL 255 */
+    /* background: rgb(255, 400, 170); */
+
+
+                    /* hexadecimal */
+    /* background: #EE09ff; */
+
+                    /* HSL */
+    background: hsl(210,40%, 65%);
+
+
+
+    /* margen */
+    margin: 20px;
+}
+
+/* tipos de colores (RGB,HEXADECIMAL,HSLA) */

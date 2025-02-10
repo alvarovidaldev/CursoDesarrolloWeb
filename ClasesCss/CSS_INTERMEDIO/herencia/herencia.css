@@ -1,0 +1,18 @@
+/* TODOS LO ELEMENTOS QUE PERTENEZCAN A BODY SUS PROPIOS ATRIBUTOS LO HEREDAN*/
+/* HEREDAN EN UN PRINCIPIO */
+body { 
+    color: brown;
+    font-family: sans-serif;
+}
+/* LUEGO LO CAMBIAMOS A CADA UNO */
+h1 {
+    color: red;
+}
+p {
+    color: blue;
+}
+
+div {
+    font-family: sans-serif;
+    color: red;
+}

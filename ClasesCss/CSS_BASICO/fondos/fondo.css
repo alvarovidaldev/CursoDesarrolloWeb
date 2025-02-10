@@ -1,0 +1,41 @@
+body{
+    background-color: #0f0;
+}
+
+.box{
+    width: 100%;
+    height: 134px;
+    margin: 0;   
+    /* la ultima letra define la transparencia */
+    background-color: #000;
+    background-image: url("https://imgs.search.brave.com/V47_yMalYTGKZL6LwGs6qzctD7vXBuy7yHOZ5DL0S5g/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzcxcHBwYzdkaHZM/LmpwZw");
+
+    /* contain = obliga a la imagen a adaptarse */
+
+    background-size: cover;
+
+    /* cover = hace que la imagen se ajusta a la resolucion entra completo */
+
+    background-position: top;
+
+    /* para que la imagen nose repita */
+
+    /* background-repeat: no-repeat; */
+
+    margin: 0;
+
+
+
+    /* ==================== ======================= */
+    background-attachment: fixed;
+
+}
+h1{
+    padding: 30px;
+    text-align: center;
+    color: rgb(76, 7, 181);
+    font-size: 80px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+

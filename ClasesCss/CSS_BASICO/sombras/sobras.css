@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+/* 3 tipos de sombras */
+/* BOX SHADOW = CAJA, TEXT SHADOW = TEXTO , DROP SHADOW = COMPONTE */
+.box{
+    width: 280px;
+    /* height: 360px; */
+    background: #1f9b9b;
+    margin: auto;
+    margin-top: 50px;
+
+                    /* BOX SHADOW */
+    /* ===== derecha , abajo , desenfoque , expacion , color*/
+    box-shadow: 0px 0px 80px 0px rgb(3, 160, 26);
+    padding: 20px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #444;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    padding: auto;
+}
+
+p{
+    list-style: none;
+    text-align: justify;
+    line-height: 1.4;
+    font-size: 14px;
+                    /* TEXT SHADOW */
+    /* no tiene expancion */
+    text-shadow: 0 0 5px rgb(93, 67, 67);
+}
+
+img{
+    width: 160px;
+    border-radius: 100%;
+    margin: auto;
+    
+    /* DROP SHADOW */
+
+    filter: drop-shadow(0px 0px 25px rgb(22, 195, 19));
+}

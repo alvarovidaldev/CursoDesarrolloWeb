@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+.box{
+    width: 220px;
+    height: 220px;
+    background-color: #fff;
+    color: red;
+    position: relative;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 50px;
+    text-align: justify;
+    /* crea un scrool para el texto */
+    overflow-y: scroll;
+}

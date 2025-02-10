@@ -1,0 +1,49 @@
+li {
+    color: grey;
+}
+
+.ingrediente-faltante {
+    color: red;
+}
+
+#ingrediente-secreto {
+    color: blue;
+}
+
+/* SELECCIONA DATOS EN ESPECIFICO */
+img [src="imagenes/amburguesa1.jpg"] {
+    width: 100%;
+}
+/* $ termina  sea lo demas pero termine en la extencion .jpg*/
+img [src$="jpg"] {
+    width: 100%;
+}
+/* ^ que inice con amburguesa y termine en lo que sea */
+img [src^="AMBURGUESA"] {
+    width: 100%;
+}
+
+/* strong que este dentro el ul tipo condicionado */
+ul strong {
+    color: red;
+}
+
+/* selector por hijo directo */
+li > strong {
+    color: brown;
+}
+
+/* selector adyacente */
+h1 + p {
+    color: blue;
+}
+
+/* selector de hermano generales */
+h1 ~ p {
+    color: blue;
+}
+
+/* selector de multiples elementos */
+h1,p {
+    color: red;
+}

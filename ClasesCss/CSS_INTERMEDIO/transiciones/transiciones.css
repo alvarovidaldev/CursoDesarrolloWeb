@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 60px;
+    text-align: center;
+    /* transicion siempre en la caja no con el hover */
+    transition-property: backgroud-color, color ;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    color: red;
+}
+
+.box:hover{
+    font-size: 20px;
+    background-color: blue;
+    color: #fff;
+}
+
+.box-trans {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-top: 50px;
+    font-size: 60px;
+    transition-property: left 1s;
+    position: relative;
+}
+
+body:hover .box-trans {
+    left: 400px;
+}

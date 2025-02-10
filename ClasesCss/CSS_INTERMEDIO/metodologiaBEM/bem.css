@@ -1,0 +1,45 @@
+.lista {
+    border: 2px solid #000;
+}
+
+/* SE REPITE MUCHOOOOO.........!!!!!! COSA DEL BEMMMMM */
+
+.ingrediente {
+    color: grey;
+    margin: 10px 0;
+    list-style: square;
+}
+
+.ingrediente-importante {
+    color: blue;
+    margin: 10px 0;
+    list-style: square;
+}
+
+.ingrediente-danino {
+    color: red; 
+    margin: 10px 0;
+    list-style: square;
+}
+
+
+
+/* AHORA CON DEL DEMMMMMM */
+.lista__item {
+    color: grey;
+    margin: 10px 0;
+    list-style: square;
+}
+
+.item--danino {
+    color: rgb(0, 255, 47);
+}
+.item--importante {
+    color: rgb(212, 86, 13);
+}
+
+
+.lista--vieja{
+    opacity: 0.3;
+    background-color: #ddd;
+}

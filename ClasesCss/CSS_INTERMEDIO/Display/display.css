@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+div {
+    padding: 20px;
+    background-color: #999;
+}
+/* DISPLAY BLOCK = convierte en bloque al elemento a */
+/* y ocupa todo el ancho de la pagina y comienza una nueva linea*/
+
+/* a {
+    background-color: red;
+    color: #fff;
+    display: block;
+    border: 1px solid #000;
+    margin: 20px;
+    padding: 20px;
+} */
+
+
+/* EN ELEMENTOS EN LINEA SOLO ACEPTA MARGIN Y PADDING EN HORIZONTAL */
+p {
+    background-color: black;
+    color: #fff;
+    display:inline;
+    margin: 5px;
+    padding: 20px;
+}
+
+
+
+
+.nav {
+    background-color: #48e;
+}
+.nav__list {
+    margin: 0;
+    text-align: center;
+}
+
+/* PARA BARRAS DE NAVEGACION SE USA INLINE BLOCK QUE UNO AMBAS */
+.nav__item {
+    display: inline-block;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    /* background-color: #48e; */
+}
+
+.nav__link:hover{
+    background-color: #59e;
+    text-decoration:overline;
+}
+
+.link--button {
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 4px 18px;
+    color: #48e;
+    border-radius: 6px;
+    margin-left: 24px;
+}
+.link--button:hover {
+    background: transparent;
+    color: #ffffff;
+}

@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* especificamente para hacer modales o interacciones */
+
+/* dialog :: backdrop  ===> investigar*/
+dialog {
+    background-color: #0009;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.modal__content {
+    background-color: #fff;
+    padding: 10px 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.modal__title {
+    margin-top: 10px;
+}
+
+.modal__close-button {
+    position: absolute;
+    background-color: red;
+    color: #fff;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+}

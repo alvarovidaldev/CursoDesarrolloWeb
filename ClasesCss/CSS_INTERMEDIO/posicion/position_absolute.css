@@ -1,0 +1,29 @@
+.contenedor{
+    border: 2px solid black;
+    margin: 20px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: #fff;
+}
+
+
+.box--blue {
+    background-color: yellow;
+    /* YA NO OCUPA ESPACIO */
+    position: absolute;
+    /* por defecto topa el punto de referencia del html */
+    /* eso lo cambiamos y lo podemos dentro de nuestra caja */
+    bottom: 30px;
+    right: 30px;
+    top: 30px;
+
+}
+.box--red{
+    background-color: green;
+}
